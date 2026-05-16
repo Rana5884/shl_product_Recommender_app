@@ -16,8 +16,6 @@ env/
 .venv/
 
 # Data (catalog is generated, not committed)
-data/shl_catalog.json
-data/faiss_index.pkl
 
 # IDE
 .vscode/
