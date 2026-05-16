@@ -7,8 +7,8 @@ services:
     healthCheckPath: /health
     envVars:
       - key: LLM_PROVIDER
-        value: google
-      - key: GOOGLE_API_KEY
+        value: groq
+      - key: GROQ_API_KEY
         sync: false   # Set this in Render dashboard → Environment
       - key: PYTHON_VERSION
         value: "3.11.0"
