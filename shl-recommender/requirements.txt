@@ -1,0 +1,18 @@
+# Core API
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+httpx==0.28.1
+python-dotenv==1.0.1
+
+# Catalog scraping
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# Vector search (semantic similarity)
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0.post1
+
+# Utilities
+numpy==1.26.4
